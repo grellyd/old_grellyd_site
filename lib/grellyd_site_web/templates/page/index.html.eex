@@ -1,52 +1,29 @@
+<!-- Icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Local CSS -->
 <link rel="stylesheet" href="/css/app.css">
+
 <div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+  <h1>Hi!</h1>
+  <h2>I'm Graham L. Brown, software engineer, backpacker, and eternal student.</h2>
 </div>
-
-<div class="row marketing">
-  <div class="col-lg-6">
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="http://phoenixframework.org/docs/overview">Guides</a>
-      </li>
-      <li>
-        <a href="https://hexdocs.pm/phoenix">Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-    </ul>
-  </div>
-
-  <div class="col-lg-6">
-    <h4>Help</h4>
-    <ul>
-      <li>
-        <a href="http://groups.google.com/group/phoenix-talk">Mailing list</a>
-      </li>
-      <li>
-        <a href="http://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on freenode IRC</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
-      </li>
-    </ul>
-  </div>
-
-  <div>
-    <h4>Social</h4>
-    <br>
-    <!-- Add font awesome icons -->
-    <a href="https://www.facebook.com/grellyd" class="fa fa-icon fa-facebook"></a>
-    <a href="https://www.twitter.com/grellyd" class="fa fa-icon fa-twitter"></a>
-    <a href="https://www.github.com/grellyd" class"fa fa-icon fa-github"></a>
-    <a href="https://www.linkedin.com/grellyd" class"fa fa-icon fa-linkedin"></a>
-
+<div class="jumbotron">
+  <p class="lead">Two disclaimers:</p>
+  <ul>
+    <li>
+      <p class="lead">This page is under construction. Please excuse the mess.</p>
+    </li>
+    <li>
+      <p class="lead">I am a backend engineer, not a frontend developer. The fact this page even appears readable is a miracle!</p>
+    </li>
+  </ul>
 </div>
-
-<footer>
-    <!-- Add icon library -->
-</footer>
+<div class="col-lg-6">
+  <h2>Connect with me!</h2>
+  <br>
+  <!-- Font awesome icons -->
+  <a href="https://www.facebook.com/grellyd" class="fa fa-icon fa-facebook"></a>
+  <a href="https://www.twitter.com/grellyd" class="fa fa-icon fa-twitter"></a>
+  <a href="https://www.github.com/grellyd" class="fa fa-icon fa-github"></a>
+  <a href="https://www.linkedin.com/grellyd" class="fa fa-icon fa-linkedin"></a>
+</div>
